@@ -1,1 +1,88 @@
-/* Add screen styles below */
+body {
+    background-color: #424242;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust size as needed */
+}
+
+.star-text {
+    color: lime;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tagline,
+.experiment-status,
+.last-updated {
+    color: white;
+    font-weight: bold;
+}
+
+.navigation {
+    color: lime;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    color: lime;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Adjust spacing as needed */
+    padding: 0 50px;
+}
+
+.rectangle {
+    flex: 1;
+    max-width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    border: 2px solid lime;
+    background-color: rgba(0, 255, 0, 0.1); /* Adjust transparency as needed */
+    text-align: center;
+    margin: 0 10px;
+}
+
+.mission-title {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mission-details {
+    text-align: right;
+    color: white;
+}
+
+.rectangle img {
+    margin-top: 20px;
+    width: 100px; /* Adjust size as needed */
+}
