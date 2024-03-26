@@ -66,6 +66,7 @@ body {
 .rectangle {
     flex: 1;
     max-width: 300px; /* Adjust width as needed */
+    height: 500px;
     padding: 20px;
     border: 2px solid lime;
     background-color: rgba(0, 0, 0, 0); /* Adjust transparency as needed */
@@ -80,7 +81,7 @@ body {
 }
 
 .mission-details {
-    text-align: right;
+    text-align: left;
     color: white;
 }
 
