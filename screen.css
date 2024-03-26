@@ -95,5 +95,6 @@ body {
 
 .rectangle img {
     margin-top: 20px;
-    width: 100px; /* Adjust size as needed */
+    width: 100px; 
+    margin-top: 40px;
 }
